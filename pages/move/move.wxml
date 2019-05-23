@@ -1,0 +1,12 @@
+<view class="gift-canvas flex-center" style="border:1px solid #ec2c98;">
+    <movable-area class="bgcf br10" style="width:325px;height:430px;">
+
+        <block wx:for="{{50}}">
+            <movable-view disabled="" data-index="0" direction="all" style="width: 30px; height: 52px;" x="233.2" y="115.1">
+                <image src="https://doutui.oss-cn-beijing.aliyuncs.com/gift4-1.png" style="width:30px; height:52px;">
+                </image>
+            </movable-view>
+        </block>
+        
+    </movable-area>
+</view>

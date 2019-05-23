@@ -1,0 +1,7 @@
+<text>pages/wx_api/wx_api.wxml</text>
+<view>
+    <upload width='200'  height='200'  bind:upload="onUpload"/>
+</view>
+<view>
+    <maps enable_satellite="{{enable_satellite}}" bind:markertap="onMarkertap" bind:location="location" />
+</view>

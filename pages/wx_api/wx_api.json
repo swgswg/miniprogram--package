@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+      "upload": "../../component/upload/upload",
+      "maps": "../../component/map/map"
+  }
+}
